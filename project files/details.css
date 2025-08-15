@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+#header {
+  background-color: #ff5637;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+#header h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}
+
+table {
+  width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+th, td {
+  padding: 14px 18px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #ff5637;
+  color: white;
+  font-size: 1.1em;
+}
+tr:hover {
+  background-color: #f9f9f9;
+}
+form {
+  width: 90%;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form input[type="radio"] {
+  margin-right: 8px;
+  margin-left: 20px;
+  transform: scale(1.2);
+}
+
+form label {
+  font-size: 1.1em;
+  margin-right: 15px;
+}
+
+form input[type="date"],
+form input[type="text"] {
+  padding: 8px 10px;
+  font-size: 1em;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 180px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+form button[type="submit"] {
+  background-color: #ff5637;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #e64a2e;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+}
+#note{
+    width: 90%;
+   margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    position: relative;
+    color: #ff5637;
+    height: 60px;
+    top: -20px;
+    border-radius: 10px;
+    text-shadow: 0 0 15px rgba(0,0,0,0.2);
+    font-size: 2em;
+}
+#note h3{
+    
+    display: inline-block;
+    color: #444;
+}
+#no_train{
+  position: relative;
+  top: 150px;
+  left: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #ff5637;
+  width: 800px;
+  height: 100px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  font-weight: bold;
+  text-shadow: 0 0 15px rgba(0,0,0,0.1);
+  margin: 100px;
+  border-radius: 10px;
+}

@@ -1,0 +1,110 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+#header {
+  background-color: #ff5637;
+  height: 60px;
+
+}
+#header h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 26px;
+  margin: 0;
+  width: 500px;
+  position: relative;
+  left: 20px;
+  top: 15px;
+}
+#profile{
+  position: relative;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-left: 1100px;
+  top: -15px;
+  font-weight: bold;
+  width: 50px;
+}
+#contact{
+  position: relative;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-left: 200px;
+  top: -15px;
+  font-weight: bold;
+  width: 50px;
+}
+#header a:hover{
+  text-decoration: underline;
+}
+#form-container{
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 1500px;
+  height: 400px;
+  left: 15px;
+  top: 150px;
+}
+#search{
+  position: relative;
+  border-style: none;
+  left: 370px;
+  background-color: #ff5637;
+  color: white;
+  border-radius: 50px;
+  width: 250px;
+  height: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  top: 100px;
+}
+#search:hover{
+  box-shadow: 0 0 15px rgba(0,0,1,1);
+}
+#search:active{
+  border-style: solid;
+}
+#form-container h1{
+  position: relative;
+  text-align: center;
+  top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ff5637;
+  text-decoration: underline;
+}
+#to{
+  margin-left: 50px;
+}
+.button{
+  position: relative;
+  top: 75px;
+  height: 75px;
+  width: 500px;
+  background-color: white;
+  border:1px solid #ccc;
+  border-style: none;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  font-size: 2.5em;
+  color: black;
+}
+.button:focus{
+  border-style: solid;
+  box-shadow: 0 0 15px rgb(180, 3, 3);
+}
+.button::placeholder{
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

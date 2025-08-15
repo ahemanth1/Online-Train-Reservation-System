@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.header{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ff5634;
+  height: 50px;
+}
+.header h2{
+  position: relative;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+  left: 20px;
+  width: 200px;
+  top: -10px;
+}
+#wish{
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 150px;
+  left: 260px;
+  height: 300px;
+  width: 350px;
+  font-size: medium;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 20px;
+}
+
+.mat{
+  text-align: center;
+  text-shadow: 0 0 15px rgba(0,0,0,0.2);
+  color:#ff5634;
+  position: relative;
+  top: 75px;
+  left: 10px;
+  font-size: 1.5em;
+}
+#welcome{
+  text-shadow: 0 0 15px rgba(0,0,0,0.2);
+  color:#ff5634;
+  font-size: 4.5em;
+  text-align: center;
+  position: relative;
+  top: 75px;
+}
+.form-container {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  position: relative;
+  height: 300px;
+  margin: 0;
+  top: -185px;
+  left: 750px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+.form-container:active{
+  box-shadow: 0 0 10px #ff5634;
+}
+.form-container h2 {
+  position: relative;
+  text-align: center;
+  top: -30px;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  position: relative;
+  top: -35px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: black;
+}
+
+.form-container button {
+  position: relative;
+  top: -30px;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff5634;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 2em;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+.form-container button:focus {
+    border-style:inherit;
+    border-color: black;
+  box-shadow: 0 0 15px black;
+}
+

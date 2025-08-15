@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+#header {
+  background-color: #ff5637;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+#header h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}
+#title{
+    position: relative;
+    left: 580px;
+    color: #ff5637;
+    width: 500px;
+    font-size: 2em;
+}
+
+.payment-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+  font-size: 1.1em;
+  line-height: 2em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.total-amount {
+  font-size: 1.4em;
+  color: #ff5637;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+form button[type="submit"] {
+  background-color: #ff5637;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #e14d2b;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}

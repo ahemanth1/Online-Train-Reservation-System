@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  height: 100vh;
+  margin: 0;
+}
+.header {
+  background-color: #ff5637;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.header h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}.login-container {
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  height: 350px;
+  top: -35px;
+  left: 710px;
+  width: 350px;
+}
+.login-container:active{
+  box-shadow: 0 0 15px #ff5634;
+}
+.login-container h2 {
+  position: relative;
+  top: -30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff5634;
+}
+.login-container input {
+  position: relative;
+  left: 15px;
+  width: 320px;
+  padding: 10px;
+  margin: 12px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: black;
+  top: -30px;
+}
+#create{
+    position: relative;
+    display: inline-block;
+    top: 25px;
+    color: black;
+    left: 20px;
+}
+.login-container button {
+  position: relative;
+  width: 320px;
+  left: 15px;
+  padding: 10px;
+  background-color: #ff5634;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  top: -20px;
+}
+#wish h2{
+  position: relative;
+  top: 200px;
+  color: #ff5634;
+  text-shadow: 0 0 15px rgba(0,0,0,0.2);
+  left: 200px;
+  width: 500px;
+}
+#wel{
+  font-size: 3em;
+}
+.login-container button:focus{
+  border-style:inherit;
+    border-color: black;
+  box-shadow: 0 0 15px black;
+}
+a{
+    color: #ff5634;
+    text-decoration: none;
+}
+#for{
+  position: relative;
+  left: 20px;
+  top: -35px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+

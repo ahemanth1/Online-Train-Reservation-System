@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+
+#header {
+  background-color: #ff5637;
+  padding: 12px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#header h2 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
+
+
+#user_det {
+  background-color: white;
+  width: 850px;
+  margin: 30px auto 0 auto;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#user_det h2 {
+  color: #ff5637;
+  margin: 10px 0;
+  font-weight: normal;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+#user_det span{
+  color: #444;
+}
+
+#ticket_det {
+  background-color: white;
+  width: 1200px;
+  margin: 30px auto;
+  padding: 25px 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.ticket-left, .ticket-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#ticket_det h2 {
+  color: #ff5637;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+#ticket_det h2 span {
+  color: #444;
+  font-weight: bold;
+}
+#history{
+  color: #ff5637;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  width: 200px;
+  left: 700px;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
